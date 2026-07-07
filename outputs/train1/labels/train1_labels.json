@@ -1,0 +1,2517 @@
+{
+    "scene_0000": {
+        "gt_objects": [
+            "peach",
+            "cracker_box",
+            "banana",
+            "pear",
+            "flat_screwdriver",
+            "camel",
+            "head_shoulders_care",
+            "tape",
+            "dish"
+        ],
+        "frame_used": "0004",
+        "depth_ratio": 0.968,
+        "masks_found": 13,
+        "vlm_objects": [
+            {
+                "scene": "scene_0000",
+                "frame": "0004",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0000/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0000",
+                "frame": "0004",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.111,
+        "grasp_accuracy": 0.5,
+        "grasp_accuracy_semantic": 0.5,
+        "detected": [
+            "banana"
+        ],
+        "detected_semantic": [
+            "banana"
+        ],
+        "missed": [
+            "cracker_box",
+            "head_shoulders_care",
+            "camel",
+            "tape",
+            "pear",
+            "flat_screwdriver",
+            "dish",
+            "peach"
+        ],
+        "false_positives": []
+    },
+    "scene_0001": {
+        "gt_objects": [
+            "head_shoulders_care",
+            "banana",
+            "pear",
+            "flat_screwdriver",
+            "tape",
+            "dish",
+            "cracker_box",
+            "camel",
+            "peach"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.954,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0001",
+                "frame": "0005",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0001/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0001",
+                "frame": "0005",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "cheez-it",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0001",
+                "frame": "0005",
+                "crop": "object_2_sub0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.222,
+        "recall_semantic": 0.222,
+        "grasp_accuracy": 0.667,
+        "grasp_accuracy_semantic": 0.667,
+        "detected": [
+            "banana",
+            "cracker_box"
+        ],
+        "detected_semantic": [
+            "banana",
+            "cracker_box"
+        ],
+        "missed": [
+            "head_shoulders_care",
+            "camel",
+            "tape",
+            "pear",
+            "flat_screwdriver",
+            "dish",
+            "peach"
+        ],
+        "false_positives": []
+    },
+    "scene_0002": {
+        "gt_objects": [
+            "cracker_box",
+            "banana",
+            "dish",
+            "peach",
+            "pear",
+            "flat_screwdriver",
+            "camel",
+            "head_shoulders_care",
+            "tape"
+        ],
+        "frame_used": "0000",
+        "depth_ratio": 0.973,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0002",
+                "frame": "0000",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0002/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0002",
+                "frame": "0000",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "cheez-it",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0002/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0002",
+                "frame": "0000",
+                "crop": "object_6.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0002/depth/object_6.png"
+            }
+        ],
+        "recall": 0.222,
+        "recall_semantic": 0.222,
+        "grasp_accuracy": 0.667,
+        "grasp_accuracy_semantic": 0.667,
+        "detected": [
+            "banana",
+            "cracker_box"
+        ],
+        "detected_semantic": [
+            "banana",
+            "cracker_box"
+        ],
+        "missed": [
+            "peach",
+            "head_shoulders_care",
+            "camel",
+            "tape",
+            "pear",
+            "dish",
+            "flat_screwdriver"
+        ],
+        "false_positives": []
+    },
+    "scene_0003": {
+        "gt_objects": [
+            "glue",
+            "mario",
+            "shampoo",
+            "hanoi_tower",
+            "sugar_box",
+            "large_clamp",
+            "stapler",
+            "thread",
+            "extra_large_clamp"
+        ],
+        "frame_used": "0001",
+        "depth_ratio": 0.973,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0003",
+                "frame": "0001",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0003",
+                "frame": "0001",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0003",
+                "frame": "0001",
+                "crop": "object_3.png",
+                "object_count": "1",
+                "object_raw": "mug",
+                "object": "mug",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0003/depth/object_3.png"
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.111,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "shampoo"
+        ],
+        "missed": [
+            "extra_large_clamp",
+            "hanoi_tower",
+            "stapler",
+            "sugar_box",
+            "glue",
+            "thread",
+            "mario",
+            "large_clamp"
+        ],
+        "false_positives": [
+            "mug"
+        ]
+    },
+    "scene_0004": {
+        "gt_objects": [
+            "thread",
+            "glue",
+            "hanoi_tower",
+            "extra_large_clamp",
+            "shampoo",
+            "large_clamp",
+            "sugar_box",
+            "mario",
+            "stapler"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.967,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0004",
+                "frame": "0003",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0004",
+                "frame": "0003",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.111,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "shampoo"
+        ],
+        "missed": [
+            "extra_large_clamp",
+            "hanoi_tower",
+            "stapler",
+            "sugar_box",
+            "glue",
+            "thread",
+            "mario",
+            "large_clamp"
+        ],
+        "false_positives": []
+    },
+    "scene_0005": {
+        "gt_objects": [
+            "hanoi_tower",
+            "stapler",
+            "shampoo",
+            "glue",
+            "sugar_box",
+            "mario",
+            "large_clamp",
+            "extra_large_clamp",
+            "thread"
+        ],
+        "frame_used": "0001",
+        "depth_ratio": 0.973,
+        "masks_found": 9,
+        "vlm_objects": [
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0005/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "toothpaste tube",
+                "object": "toothpaste tube",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0005/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0005/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_3_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_3_sub1.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0005",
+                "frame": "0001",
+                "crop": "object_6.png",
+                "object_count": "1",
+                "object_raw": "red marker",
+                "object": "red marker",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0005/depth/object_6.png"
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.222,
+        "grasp_accuracy": 0.333,
+        "grasp_accuracy_semantic": 0.333,
+        "detected": [
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "shampoo",
+            "mario"
+        ],
+        "missed": [
+            "extra_large_clamp",
+            "hanoi_tower",
+            "stapler",
+            "sugar_box",
+            "glue",
+            "thread",
+            "large_clamp"
+        ],
+        "false_positives": [
+            "red marker",
+            "toothpaste tube",
+            "toy_airplane_d"
+        ]
+    },
+    "scene_0006": {
+        "gt_objects": [
+            "power_drill",
+            "scissors",
+            "strawberry",
+            "toy_airplane_i",
+            "sum37_secret_repair",
+            "dabao_wash_soup",
+            "kispa_cleanser",
+            "gorilla",
+            "weiquan",
+            "hippo"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.972,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0006",
+                "frame": "0003",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0006/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0006",
+                "frame": "0003",
+                "crop": "object_2_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0006",
+                "frame": "0003",
+                "crop": "object_2_sub1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.2,
+        "recall_semantic": 0.2,
+        "grasp_accuracy": 0.0,
+        "grasp_accuracy_semantic": 0.667,
+        "detected": [
+            "power_drill",
+            "scissors"
+        ],
+        "detected_semantic": [
+            "power_drill",
+            "scissors"
+        ],
+        "missed": [
+            "hippo",
+            "gorilla",
+            "kispa_cleanser",
+            "dabao_wash_soup",
+            "toy_airplane_i",
+            "strawberry",
+            "sum37_secret_repair",
+            "weiquan"
+        ],
+        "false_positives": []
+    },
+    "scene_0007": {
+        "gt_objects": [
+            "power_drill",
+            "scissors",
+            "strawberry",
+            "toy_airplane_i",
+            "sum37_secret_repair",
+            "dabao_wash_soup",
+            "kispa_cleanser",
+            "gorilla",
+            "weiquan",
+            "hippo"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.962,
+        "masks_found": 14,
+        "vlm_objects": [
+            {
+                "scene": "scene_0007",
+                "frame": "0005",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0007/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0007",
+                "frame": "0005",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0007/depth/object_1.png"
+            }
+        ],
+        "recall": 0.1,
+        "recall_semantic": 0.1,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "scissors"
+        ],
+        "detected_semantic": [
+            "scissors"
+        ],
+        "missed": [
+            "hippo",
+            "gorilla",
+            "dabao_wash_soup",
+            "kispa_cleanser",
+            "toy_airplane_i",
+            "strawberry",
+            "sum37_secret_repair",
+            "weiquan",
+            "power_drill"
+        ],
+        "false_positives": []
+    },
+    "scene_0008": {
+        "gt_objects": [
+            "power_drill",
+            "scissors",
+            "strawberry",
+            "toy_airplane_i",
+            "sum37_secret_repair",
+            "dabao_wash_soup",
+            "kispa_cleanser",
+            "gorilla",
+            "weiquan",
+            "hippo"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.981,
+        "masks_found": 12,
+        "vlm_objects": [
+            {
+                "scene": "scene_0008",
+                "frame": "0005",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0008",
+                "frame": "0005",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0008",
+                "frame": "0005",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0008/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0008",
+                "frame": "0005",
+                "crop": "object_10.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0008/depth/object_10.png"
+            }
+        ],
+        "recall": 0.2,
+        "recall_semantic": 0.2,
+        "grasp_accuracy": 0.5,
+        "grasp_accuracy_semantic": 0.5,
+        "detected": [
+            "power_drill",
+            "scissors"
+        ],
+        "detected_semantic": [
+            "power_drill",
+            "scissors"
+        ],
+        "missed": [
+            "hippo",
+            "gorilla",
+            "kispa_cleanser",
+            "dabao_wash_soup",
+            "toy_airplane_i",
+            "strawberry",
+            "sum37_secret_repair",
+            "weiquan"
+        ],
+        "false_positives": []
+    },
+    "scene_0009": {
+        "gt_objects": [
+            "mug",
+            "plum",
+            "knife",
+            "toy_airplane_d",
+            "toy_airplane_j",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "large_elephant",
+            "darlie_box",
+            "dabao_facewash",
+            "head_shoulders_supreme"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.956,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0009",
+                "frame": "0003",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "toy elephant",
+                "object": "toy elephant",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0009",
+                "frame": "0003",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "toy elephant",
+                "object": "toy elephant",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0009",
+                "frame": "0003",
+                "crop": "object_8.png",
+                "object_count": "1",
+                "object_raw": "kitchen knife",
+                "object": "knife",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0009/depth/object_8.png"
+            }
+        ],
+        "recall": 0.091,
+        "recall_semantic": 0.182,
+        "grasp_accuracy": 0.333,
+        "grasp_accuracy_semantic": 0.333,
+        "detected": [
+            "knife"
+        ],
+        "detected_semantic": [
+            "large_elephant",
+            "knife"
+        ],
+        "missed": [
+            "mug",
+            "nzskincare_mouth_rinse",
+            "plum",
+            "toy_airplane_j",
+            "dabao_sod",
+            "darlie_box",
+            "head_shoulders_supreme",
+            "toy_airplane_d",
+            "dabao_facewash"
+        ],
+        "false_positives": [
+            "toy elephant"
+        ]
+    },
+    "scene_0010": {
+        "gt_objects": [
+            "mug",
+            "plum",
+            "knife",
+            "toy_airplane_d",
+            "toy_airplane_j",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "large_elephant",
+            "darlie_box",
+            "dabao_facewash",
+            "head_shoulders_supreme"
+        ],
+        "frame_used": "0002",
+        "depth_ratio": 0.965,
+        "masks_found": 13,
+        "vlm_objects": [
+            {
+                "scene": "scene_0010",
+                "frame": "0002",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "mug",
+                "object": "mug",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0010/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0010",
+                "frame": "0002",
+                "crop": "object_2_sub0.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0010",
+                "frame": "0002",
+                "crop": "object_2_sub1.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.182,
+        "recall_semantic": 0.364,
+        "grasp_accuracy": 0.333,
+        "grasp_accuracy_semantic": 0.333,
+        "detected": [
+            "mug",
+            "toy_airplane_d"
+        ],
+        "detected_semantic": [
+            "toy_airplane_d",
+            "mug",
+            "toy_airplane_j",
+            "large_elephant"
+        ],
+        "missed": [
+            "knife",
+            "dabao_facewash",
+            "head_shoulders_supreme",
+            "dabao_sod",
+            "nzskincare_mouth_rinse",
+            "plum",
+            "darlie_box"
+        ],
+        "false_positives": []
+    },
+    "scene_0011": {
+        "gt_objects": [
+            "mug",
+            "plum",
+            "knife",
+            "toy_airplane_d",
+            "toy_airplane_j",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "large_elephant",
+            "darlie_box",
+            "dabao_facewash",
+            "head_shoulders_supreme"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.949,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0011",
+                "frame": "0005",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "toothpaste",
+                "object": "toothpaste",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0011",
+                "frame": "0005",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "toothpaste",
+                "object": "toothpaste",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0011",
+                "frame": "0005",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "mug",
+                "object": "mug",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0011/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0011",
+                "frame": "0005",
+                "crop": "object_7.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0011/depth/object_7.png"
+            }
+        ],
+        "recall": 0.091,
+        "recall_semantic": 0.545,
+        "grasp_accuracy": 0.5,
+        "grasp_accuracy_semantic": 0.5,
+        "detected": [
+            "mug"
+        ],
+        "detected_semantic": [
+            "dabao_facewash",
+            "head_shoulders_supreme",
+            "dabao_sod",
+            "nzskincare_mouth_rinse",
+            "mug",
+            "darlie_box"
+        ],
+        "missed": [
+            "toy_airplane_d",
+            "large_elephant",
+            "plum",
+            "knife",
+            "toy_airplane_j"
+        ],
+        "false_positives": [
+            "toothpaste",
+            "shampoo"
+        ]
+    },
+    "scene_0012": {
+        "gt_objects": [
+            "cracker_box",
+            "scissors",
+            "large_elephant",
+            "darlie_box",
+            "dabao_facewash",
+            "hippo",
+            "tape",
+            "plum"
+        ],
+        "frame_used": "0000",
+        "depth_ratio": 0.956,
+        "masks_found": 14,
+        "vlm_objects": [
+            {
+                "scene": "scene_0012",
+                "frame": "0000",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0012/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0012",
+                "frame": "0000",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0012",
+                "frame": "0000",
+                "crop": "object_1_sub1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0012",
+                "frame": "0000",
+                "crop": "object_7.png",
+                "object_count": "1",
+                "object_raw": "cheez-it box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0012/depth/object_7.png"
+            }
+        ],
+        "recall": 0.25,
+        "recall_semantic": 0.375,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "cracker_box",
+            "scissors"
+        ],
+        "detected_semantic": [
+            "cracker_box",
+            "darlie_box",
+            "scissors"
+        ],
+        "missed": [
+            "tape",
+            "hippo",
+            "dabao_facewash",
+            "large_elephant",
+            "plum"
+        ],
+        "false_positives": []
+    },
+    "scene_0013": {
+        "gt_objects": [
+            "cracker_box",
+            "darlie_box",
+            "large_elephant",
+            "scissors",
+            "tape",
+            "plum",
+            "hippo",
+            "dabao_facewash"
+        ],
+        "frame_used": "0009",
+        "depth_ratio": 0.929,
+        "masks_found": 8,
+        "vlm_objects": [
+            {
+                "scene": "scene_0013",
+                "frame": "0009",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0013",
+                "frame": "0009",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0013",
+                "frame": "0009",
+                "crop": "object_0_sub10.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0013",
+                "frame": "0009",
+                "crop": "object_0_sub12.png",
+                "object_count": "1",
+                "object_raw": "toy elephant",
+                "object": "toy elephant",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0013",
+                "frame": "0009",
+                "crop": "object_1_sub2.png",
+                "object_count": "1",
+                "object_raw": "toy elephant",
+                "object": "toy elephant",
+                "grasp": "Pinch grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.25,
+        "recall_semantic": 0.625,
+        "grasp_accuracy": 0.2,
+        "grasp_accuracy_semantic": 0.6,
+        "detected": [
+            "scissors",
+            "cracker_box"
+        ],
+        "detected_semantic": [
+            "hippo",
+            "scissors",
+            "cracker_box",
+            "large_elephant",
+            "darlie_box"
+        ],
+        "missed": [
+            "tape",
+            "dabao_facewash",
+            "plum"
+        ],
+        "false_positives": [
+            "toy elephant"
+        ]
+    },
+    "scene_0014": {
+        "gt_objects": [
+            "cracker_box",
+            "scissors",
+            "large_elephant",
+            "darlie_box",
+            "dabao_facewash",
+            "hippo",
+            "tape",
+            "plum"
+        ],
+        "frame_used": "0000",
+        "depth_ratio": 0.931,
+        "masks_found": 7,
+        "vlm_objects": [
+            {
+                "scene": "scene_0014",
+                "frame": "0000",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0014/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0014",
+                "frame": "0000",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.125,
+        "recall_semantic": 0.125,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "scissors"
+        ],
+        "detected_semantic": [
+            "scissors"
+        ],
+        "missed": [
+            "tape",
+            "hippo",
+            "dabao_facewash",
+            "cracker_box",
+            "large_elephant",
+            "plum",
+            "darlie_box"
+        ],
+        "false_positives": []
+    },
+    "scene_0015": {
+        "gt_objects": [
+            "mug",
+            "power_drill",
+            "peach",
+            "pear",
+            "knife",
+            "extra_large_clamp",
+            "shampoo",
+            "head_shoulders_supreme",
+            "kispa_cleanser",
+            "toy_airplane_i",
+            "toy_airplane_j"
+        ],
+        "frame_used": "0002",
+        "depth_ratio": 0.929,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_4.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_4.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_6.png",
+                "object_count": "1",
+                "object_raw": "fruit",
+                "object": "fruit",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_6.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_7.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_7.png"
+            },
+            {
+                "scene": "scene_0015",
+                "frame": "0002",
+                "crop": "object_8.png",
+                "object_count": "1",
+                "object_raw": "kitchen knife",
+                "object": "knife",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0015/depth/object_8.png"
+            }
+        ],
+        "recall": 0.273,
+        "recall_semantic": 0.818,
+        "grasp_accuracy": 0.429,
+        "grasp_accuracy_semantic": 0.429,
+        "detected": [
+            "power_drill",
+            "knife",
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "toy_airplane_i",
+            "kispa_cleanser",
+            "pear",
+            "peach",
+            "power_drill",
+            "head_shoulders_supreme",
+            "shampoo",
+            "knife",
+            "toy_airplane_j"
+        ],
+        "missed": [
+            "mug",
+            "extra_large_clamp"
+        ],
+        "false_positives": [
+            "fruit",
+            "toy_airplane_d"
+        ]
+    },
+    "scene_0016": {
+        "gt_objects": [
+            "mug",
+            "power_drill",
+            "peach",
+            "pear",
+            "knife",
+            "extra_large_clamp",
+            "shampoo",
+            "head_shoulders_supreme",
+            "kispa_cleanser",
+            "toy_airplane_i",
+            "toy_airplane_j"
+        ],
+        "frame_used": "0001",
+        "depth_ratio": 0.947,
+        "masks_found": 9,
+        "vlm_objects": [
+            {
+                "scene": "scene_0016",
+                "frame": "0001",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0016/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0016",
+                "frame": "0001",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0016/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0016",
+                "frame": "0001",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0016/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0016",
+                "frame": "0001",
+                "crop": "object_6.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0016/depth/object_6.png"
+            },
+            {
+                "scene": "scene_0016",
+                "frame": "0001",
+                "crop": "object_8.png",
+                "object_count": "1",
+                "object_raw": "kitchen knife",
+                "object": "knife",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0016/depth/object_8.png"
+            }
+        ],
+        "recall": 0.273,
+        "recall_semantic": 0.636,
+        "grasp_accuracy": 0.6,
+        "grasp_accuracy_semantic": 0.6,
+        "detected": [
+            "power_drill",
+            "knife",
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "toy_airplane_i",
+            "kispa_cleanser",
+            "head_shoulders_supreme",
+            "power_drill",
+            "shampoo",
+            "knife",
+            "toy_airplane_j"
+        ],
+        "missed": [
+            "peach",
+            "pear",
+            "mug",
+            "extra_large_clamp"
+        ],
+        "false_positives": [
+            "toy_airplane_d"
+        ]
+    },
+    "scene_0017": {
+        "gt_objects": [
+            "mug",
+            "power_drill",
+            "peach",
+            "pear",
+            "knife",
+            "extra_large_clamp",
+            "shampoo",
+            "head_shoulders_supreme",
+            "kispa_cleanser",
+            "toy_airplane_i",
+            "toy_airplane_j"
+        ],
+        "frame_used": "0008",
+        "depth_ratio": 0.951,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0017",
+                "frame": "0008",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0017",
+                "frame": "0008",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.091,
+        "recall_semantic": 0.273,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "shampoo"
+        ],
+        "detected_semantic": [
+            "head_shoulders_supreme",
+            "kispa_cleanser",
+            "shampoo"
+        ],
+        "missed": [
+            "toy_airplane_i",
+            "extra_large_clamp",
+            "pear",
+            "peach",
+            "power_drill",
+            "mug",
+            "knife",
+            "toy_airplane_j"
+        ],
+        "false_positives": []
+    },
+    "scene_0018": {
+        "gt_objects": [
+            "banana",
+            "flat_screwdriver",
+            "toy_airplane_f",
+            "sum37_secret_repair",
+            "dabao_wash_soup",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "weiquan",
+            "sugar_box"
+        ],
+        "frame_used": "0002",
+        "depth_ratio": 0.974,
+        "masks_found": 9,
+        "vlm_objects": [
+            {
+                "scene": "scene_0018",
+                "frame": "0002",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0018/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0018",
+                "frame": "0002",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0018/depth/object_1.png"
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.111,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "banana"
+        ],
+        "detected_semantic": [
+            "banana"
+        ],
+        "missed": [
+            "dabao_wash_soup",
+            "sugar_box",
+            "dabao_sod",
+            "weiquan",
+            "flat_screwdriver",
+            "sum37_secret_repair",
+            "nzskincare_mouth_rinse",
+            "toy_airplane_f"
+        ],
+        "false_positives": []
+    },
+    "scene_0019": {
+        "gt_objects": [
+            "banana",
+            "flat_screwdriver",
+            "dabao_wash_soup",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "weiquan",
+            "toy_airplane_f",
+            "sum37_secret_repair",
+            "sugar_box"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.957,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0019",
+                "frame": "0003",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0019",
+                "frame": "0003",
+                "crop": "object_1_sub1.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.111,
+        "grasp_accuracy": 0.0,
+        "grasp_accuracy_semantic": 0.0,
+        "detected": [
+            "banana"
+        ],
+        "detected_semantic": [
+            "banana"
+        ],
+        "missed": [
+            "dabao_wash_soup",
+            "sugar_box",
+            "dabao_sod",
+            "weiquan",
+            "flat_screwdriver",
+            "sum37_secret_repair",
+            "nzskincare_mouth_rinse",
+            "toy_airplane_f"
+        ],
+        "false_positives": []
+    },
+    "scene_0020": {
+        "gt_objects": [
+            "banana",
+            "flat_screwdriver",
+            "dabao_wash_soup",
+            "nzskincare_mouth_rinse",
+            "dabao_sod",
+            "weiquan",
+            "toy_airplane_f",
+            "sum37_secret_repair",
+            "sugar_box"
+        ],
+        "frame_used": "0002",
+        "depth_ratio": 0.96,
+        "masks_found": 9,
+        "vlm_objects": [
+            {
+                "scene": "scene_0020",
+                "frame": "0002",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0020",
+                "frame": "0002",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "banana",
+                "object": "banana",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0020",
+                "frame": "0002",
+                "crop": "object_4.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0020/depth/object_4.png"
+            }
+        ],
+        "recall": 0.111,
+        "recall_semantic": 0.556,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [
+            "banana"
+        ],
+        "detected_semantic": [
+            "dabao_wash_soup",
+            "dabao_sod",
+            "weiquan",
+            "nzskincare_mouth_rinse",
+            "banana"
+        ],
+        "missed": [
+            "sum37_secret_repair",
+            "toy_airplane_f",
+            "flat_screwdriver",
+            "sugar_box"
+        ],
+        "false_positives": [
+            "shampoo"
+        ]
+    },
+    "scene_0021": {
+        "gt_objects": [
+            "strawberry",
+            "toy_airplane_d",
+            "stapler",
+            "dish",
+            "camel",
+            "head_shoulders_care",
+            "large_clamp",
+            "mario",
+            "glue",
+            "thread"
+        ],
+        "frame_used": "0007",
+        "depth_ratio": 0.938,
+        "masks_found": 13,
+        "vlm_objects": [
+            {
+                "scene": "scene_0021",
+                "frame": "0007",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Lateral pinch",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0021",
+                "frame": "0007",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0021",
+                "frame": "0007",
+                "crop": "object_1_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0021",
+                "frame": "0007",
+                "crop": "object_4_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0021",
+                "frame": "0007",
+                "crop": "object_5.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0021/depth/object_5.png"
+            }
+        ],
+        "recall": 0.1,
+        "recall_semantic": 0.4,
+        "grasp_accuracy": 0.6,
+        "grasp_accuracy_semantic": 0.8,
+        "detected": [
+            "toy_airplane_d"
+        ],
+        "detected_semantic": [
+            "mario",
+            "camel",
+            "toy_airplane_d",
+            "head_shoulders_care"
+        ],
+        "missed": [
+            "glue",
+            "thread",
+            "stapler",
+            "dish",
+            "large_clamp",
+            "strawberry"
+        ],
+        "false_positives": [
+            "shampoo",
+            "power_drill"
+        ]
+    },
+    "scene_0022": {
+        "gt_objects": [
+            "strawberry",
+            "toy_airplane_d",
+            "stapler",
+            "dish",
+            "camel",
+            "head_shoulders_care",
+            "large_clamp",
+            "mario",
+            "glue",
+            "thread"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.955,
+        "masks_found": 12,
+        "vlm_objects": [
+            {
+                "scene": "scene_0022",
+                "frame": "0005",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0022",
+                "frame": "0005",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.1,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [],
+        "detected_semantic": [
+            "head_shoulders_care"
+        ],
+        "missed": [
+            "mario",
+            "glue",
+            "thread",
+            "large_clamp",
+            "stapler",
+            "dish",
+            "strawberry",
+            "camel",
+            "toy_airplane_d"
+        ],
+        "false_positives": [
+            "shampoo"
+        ]
+    },
+    "scene_0023": {
+        "gt_objects": [
+            "strawberry",
+            "toy_airplane_d",
+            "stapler",
+            "dish",
+            "camel",
+            "head_shoulders_care",
+            "large_clamp",
+            "mario",
+            "glue",
+            "thread"
+        ],
+        "frame_used": "0008",
+        "depth_ratio": 0.97,
+        "masks_found": 12,
+        "vlm_objects": [
+            {
+                "scene": "scene_0023",
+                "frame": "0008",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0023",
+                "frame": "0008",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.1,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [],
+        "detected_semantic": [
+            "head_shoulders_care"
+        ],
+        "missed": [
+            "mario",
+            "glue",
+            "thread",
+            "large_clamp",
+            "stapler",
+            "dish",
+            "strawberry",
+            "camel",
+            "toy_airplane_d"
+        ],
+        "false_positives": [
+            "shampoo"
+        ]
+    },
+    "scene_0024": {
+        "gt_objects": [
+            "peach",
+            "pear",
+            "flat_screwdriver",
+            "dabao_wash_soup",
+            "hanoi_tower",
+            "dish",
+            "gorilla",
+            "toy_airplane_j",
+            "mug",
+            "toy_airplane_f"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.961,
+        "masks_found": 11,
+        "vlm_objects": [
+            {
+                "scene": "scene_0024",
+                "frame": "0003",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "stapler",
+                "object": "stapler",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0024",
+                "frame": "0003",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0024",
+                "frame": "0003",
+                "crop": "object_0_sub2.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0024",
+                "frame": "0003",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "stapler",
+                "object": "stapler",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0024/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0024",
+                "frame": "0003",
+                "crop": "object_6_sub0.png",
+                "object_count": "1",
+                "object_raw": "toy airplane",
+                "object": "toy_airplane_d",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.3,
+        "grasp_accuracy": 0.0,
+        "grasp_accuracy_semantic": 0.0,
+        "detected": [],
+        "detected_semantic": [
+            "gorilla",
+            "toy_airplane_f",
+            "toy_airplane_j"
+        ],
+        "missed": [
+            "flat_screwdriver",
+            "pear",
+            "mug",
+            "dish",
+            "peach",
+            "hanoi_tower",
+            "dabao_wash_soup"
+        ],
+        "false_positives": [
+            "scissors",
+            "toy_airplane_d",
+            "stapler"
+        ]
+    },
+    "scene_0025": {
+        "gt_objects": [
+            "peach",
+            "pear",
+            "flat_screwdriver",
+            "dabao_wash_soup",
+            "hanoi_tower",
+            "dish",
+            "gorilla",
+            "toy_airplane_j",
+            "mug",
+            "toy_airplane_f"
+        ],
+        "frame_used": "0004",
+        "depth_ratio": 0.967,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "stapler",
+                "object": "stapler",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0025/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "stapler",
+                "object": "stapler",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0025/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_2.png",
+                "object_count": "1",
+                "object_raw": "toothpaste",
+                "object": "toothpaste",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0025/depth/object_2.png"
+            },
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_3_sub0.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_3_sub1.png",
+                "object_count": "1",
+                "object_raw": "cracker box",
+                "object": "cracker_box",
+                "grasp": "Lateral pinch",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0025",
+                "frame": "0004",
+                "crop": "object_7.png",
+                "object_count": "1",
+                "object_raw": "fruit",
+                "object": "fruit",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0025/depth/object_7.png"
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.2,
+        "grasp_accuracy": 0.333,
+        "grasp_accuracy_semantic": 0.333,
+        "detected": [],
+        "detected_semantic": [
+            "pear",
+            "peach"
+        ],
+        "missed": [
+            "toy_airplane_f",
+            "flat_screwdriver",
+            "gorilla",
+            "mug",
+            "dish",
+            "hanoi_tower",
+            "dabao_wash_soup",
+            "toy_airplane_j"
+        ],
+        "false_positives": [
+            "stapler",
+            "toothpaste",
+            "cracker_box",
+            "fruit"
+        ]
+    },
+    "scene_0026": {
+        "gt_objects": [
+            "mug",
+            "peach",
+            "pear",
+            "flat_screwdriver",
+            "toy_airplane_f",
+            "toy_airplane_j",
+            "dabao_wash_soup",
+            "hanoi_tower",
+            "dish",
+            "gorilla"
+        ],
+        "frame_used": "0006",
+        "depth_ratio": 0.97,
+        "masks_found": 8,
+        "vlm_objects": [
+            {
+                "scene": "scene_0026",
+                "frame": "0006",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "mug",
+                "object": "mug",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0026/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0026",
+                "frame": "0006",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "fruit",
+                "object": "fruit",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0026/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0026",
+                "frame": "0006",
+                "crop": "object_3.png",
+                "object_count": "1",
+                "object_raw": "fruit",
+                "object": "fruit",
+                "grasp": "Spherical grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0026/depth/object_3.png"
+            },
+            {
+                "scene": "scene_0026",
+                "frame": "0006",
+                "crop": "object_4.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0026/depth/object_4.png"
+            }
+        ],
+        "recall": 0.1,
+        "recall_semantic": 0.4,
+        "grasp_accuracy": 0.5,
+        "grasp_accuracy_semantic": 0.5,
+        "detected": [
+            "mug"
+        ],
+        "detected_semantic": [
+            "pear",
+            "mug",
+            "dabao_wash_soup",
+            "peach"
+        ],
+        "missed": [
+            "toy_airplane_f",
+            "flat_screwdriver",
+            "gorilla",
+            "dish",
+            "hanoi_tower",
+            "toy_airplane_j"
+        ],
+        "false_positives": [
+            "shampoo",
+            "fruit"
+        ]
+    },
+    "scene_0027": {
+        "gt_objects": [
+            "strawberry",
+            "plum",
+            "knife",
+            "toy_airplane_i",
+            "nzskincare_mouth_rinse",
+            "mario",
+            "large_elephant",
+            "weiquan",
+            "head_shoulders_supreme",
+            "head_shoulders_care"
+        ],
+        "frame_used": "0005",
+        "depth_ratio": 0.978,
+        "masks_found": 9,
+        "vlm_objects": [
+            {
+                "scene": "scene_0027",
+                "frame": "0005",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0027",
+                "frame": "0005",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.4,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [],
+        "detected_semantic": [
+            "head_shoulders_supreme",
+            "weiquan",
+            "nzskincare_mouth_rinse",
+            "head_shoulders_care"
+        ],
+        "missed": [
+            "mario",
+            "plum",
+            "knife",
+            "toy_airplane_i",
+            "strawberry",
+            "large_elephant"
+        ],
+        "false_positives": [
+            "shampoo"
+        ]
+    },
+    "scene_0028": {
+        "gt_objects": [
+            "strawberry",
+            "plum",
+            "knife",
+            "toy_airplane_i",
+            "nzskincare_mouth_rinse",
+            "mario",
+            "large_elephant",
+            "weiquan",
+            "head_shoulders_supreme",
+            "head_shoulders_care"
+        ],
+        "frame_used": "0003",
+        "depth_ratio": 0.979,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0028",
+                "frame": "0003",
+                "crop": "object_0_sub0.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            },
+            {
+                "scene": "scene_0028",
+                "frame": "0003",
+                "crop": "object_0_sub1.png",
+                "object_count": "1",
+                "object_raw": "shampoo bottle",
+                "object": "shampoo",
+                "grasp": "Cylindrical grasp",
+                "grasp_correct": true,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.0,
+        "recall_semantic": 0.4,
+        "grasp_accuracy": 1.0,
+        "grasp_accuracy_semantic": 1.0,
+        "detected": [],
+        "detected_semantic": [
+            "head_shoulders_supreme",
+            "weiquan",
+            "nzskincare_mouth_rinse",
+            "head_shoulders_care"
+        ],
+        "missed": [
+            "mario",
+            "plum",
+            "knife",
+            "toy_airplane_i",
+            "strawberry",
+            "large_elephant"
+        ],
+        "false_positives": [
+            "shampoo"
+        ]
+    },
+    "scene_0029": {
+        "gt_objects": [
+            "cracker_box",
+            "power_drill",
+            "scissors",
+            "shampoo",
+            "darlie_box",
+            "thread",
+            "hippo",
+            "tape"
+        ],
+        "frame_used": "0000",
+        "depth_ratio": 0.952,
+        "masks_found": 10,
+        "vlm_objects": [
+            {
+                "scene": "scene_0029",
+                "frame": "0000",
+                "crop": "object_0.png",
+                "object_count": "1",
+                "object_raw": "power drill",
+                "object": "power_drill",
+                "grasp": "Pen-holding grasp",
+                "grasp_correct": false,
+                "grasp_semantic": false,
+                "depth_crop": "outputs/train1/crops/scene_0029/depth/object_0.png"
+            },
+            {
+                "scene": "scene_0029",
+                "frame": "0000",
+                "crop": "object_1.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": "outputs/train1/crops/scene_0029/depth/object_1.png"
+            },
+            {
+                "scene": "scene_0029",
+                "frame": "0000",
+                "crop": "object_2_sub0.png",
+                "object_count": "1",
+                "object_raw": "scissors",
+                "object": "scissors",
+                "grasp": "Hook grasp",
+                "grasp_correct": false,
+                "grasp_semantic": true,
+                "depth_crop": null,
+                "from_split": true
+            }
+        ],
+        "recall": 0.25,
+        "recall_semantic": 0.25,
+        "grasp_accuracy": 0.0,
+        "grasp_accuracy_semantic": 0.667,
+        "detected": [
+            "scissors",
+            "power_drill"
+        ],
+        "detected_semantic": [
+            "scissors",
+            "power_drill"
+        ],
+        "missed": [
+            "hippo",
+            "thread",
+            "darlie_box",
+            "shampoo",
+            "cracker_box",
+            "tape"
+        ],
+        "false_positives": []
+    }
+}

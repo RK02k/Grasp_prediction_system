@@ -1,0 +1,12 @@
+"""
+Default prompt used by the VLM to infer grasp intent from a segmented object.
+"""
+
+Given the image of an object highlighted with a green mask, analyse and answer:
+
+1. What object is the robot likely trying to grasp?
+2. What is the most probable grasp intent (e.g., power grasp, precision pinch, lateral grasp)?
+3. Which part of the object should the robot's fingers contact?
+4. Are there any affordances or constraints that affect the grasp strategy?
+
+Provide a concise, structured answer.

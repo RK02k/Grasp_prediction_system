@@ -1,0 +1,1066 @@
+{
+  "timestamp": "2026-06-12T10:11:00.230233",
+  "realsense": {
+    "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/realsense",
+    "subdirs": {
+      "rgb": {
+        "exists": true,
+        "count": 256,
+        "first": "0000.png",
+        "last": "0255.png"
+      },
+      "depth": {
+        "exists": true,
+        "count": 256,
+        "first": "0000.png",
+        "last": "0255.png"
+      },
+      "annotations": {
+        "exists": true,
+        "count": 256,
+        "first": "0000.xml",
+        "last": "0255.xml"
+      },
+      "label": {
+        "exists": true,
+        "count": 256,
+        "first": "0000.png",
+        "last": "0255.png"
+      },
+      "meta": {
+        "exists": true,
+        "count": 256,
+        "first": "0000.mat",
+        "last": "0255.mat"
+      }
+    },
+    "camera_files": {
+      "camK.npy": true,
+      "cam0_wrt_table.npy": true,
+      "camera_poses.npy": true
+    }
+  },
+  "train1": {
+    "exists": true,
+    "scene_count": 30,
+    "scenes": {
+      "scene_0000": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0000",
+        "object_ids": [
+          14,
+          0,
+          5,
+          15,
+          20,
+          48,
+          66,
+          70,
+          46
+        ],
+        "object_count": 9,
+        "object_names": [
+          "peach",
+          "cracker_box",
+          "banana",
+          "pear",
+          "flat_screwdriver",
+          "camel",
+          "head_shoulders_care",
+          "tape",
+          "dish"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0001": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0001",
+        "object_ids": [
+          66,
+          5,
+          15,
+          20,
+          70,
+          46,
+          0,
+          48,
+          14
+        ],
+        "object_count": 9,
+        "object_names": [
+          "head_shoulders_care",
+          "banana",
+          "pear",
+          "flat_screwdriver",
+          "tape",
+          "dish",
+          "cracker_box",
+          "camel",
+          "peach"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0002": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0002",
+        "object_ids": [
+          0,
+          5,
+          46,
+          14,
+          15,
+          20,
+          48,
+          66,
+          70
+        ],
+        "object_count": 9,
+        "object_names": [
+          "cracker_box",
+          "banana",
+          "dish",
+          "peach",
+          "pear",
+          "flat_screwdriver",
+          "camel",
+          "head_shoulders_care",
+          "tape"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0003": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0003",
+        "object_ids": [
+          60,
+          43,
+          52,
+          41,
+          2,
+          21,
+          44,
+          62,
+          22
+        ],
+        "object_count": 9,
+        "object_names": [
+          "glue",
+          "mario",
+          "shampoo",
+          "hanoi_tower",
+          "sugar_box",
+          "large_clamp",
+          "stapler",
+          "thread",
+          "extra_large_clamp"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0004": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0004",
+        "object_ids": [
+          62,
+          60,
+          41,
+          22,
+          52,
+          21,
+          2,
+          43,
+          44
+        ],
+        "object_count": 9,
+        "object_names": [
+          "thread",
+          "glue",
+          "hanoi_tower",
+          "extra_large_clamp",
+          "shampoo",
+          "large_clamp",
+          "sugar_box",
+          "mario",
+          "stapler"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0005": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0005",
+        "object_ids": [
+          41,
+          44,
+          52,
+          60,
+          2,
+          43,
+          21,
+          22,
+          62
+        ],
+        "object_count": 9,
+        "object_names": [
+          "hanoi_tower",
+          "stapler",
+          "shampoo",
+          "glue",
+          "sugar_box",
+          "mario",
+          "large_clamp",
+          "extra_large_clamp",
+          "thread"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0006": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0006",
+        "object_ids": [
+          8,
+          9,
+          11,
+          29,
+          34,
+          36,
+          40,
+          56,
+          57,
+          69
+        ],
+        "object_count": 10,
+        "object_names": [
+          "power_drill",
+          "scissors",
+          "strawberry",
+          "toy_airplane_i",
+          "sum37_secret_repair",
+          "dabao_wash_soup",
+          "kispa_cleanser",
+          "gorilla",
+          "weiquan",
+          "hippo"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0007": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0007",
+        "object_ids": [
+          8,
+          9,
+          11,
+          29,
+          34,
+          36,
+          40,
+          56,
+          57,
+          69
+        ],
+        "object_count": 10,
+        "object_names": [
+          "power_drill",
+          "scissors",
+          "strawberry",
+          "toy_airplane_i",
+          "sum37_secret_repair",
+          "dabao_wash_soup",
+          "kispa_cleanser",
+          "gorilla",
+          "weiquan",
+          "hippo"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0008": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0008",
+        "object_ids": [
+          8,
+          9,
+          11,
+          29,
+          34,
+          36,
+          40,
+          56,
+          57,
+          69
+        ],
+        "object_count": 10,
+        "object_names": [
+          "power_drill",
+          "scissors",
+          "strawberry",
+          "toy_airplane_i",
+          "sum37_secret_repair",
+          "dabao_wash_soup",
+          "kispa_cleanser",
+          "gorilla",
+          "weiquan",
+          "hippo"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0009": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0009",
+        "object_ids": [
+          7,
+          17,
+          18,
+          26,
+          30,
+          37,
+          38,
+          51,
+          58,
+          61,
+          63
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "plum",
+          "knife",
+          "toy_airplane_d",
+          "toy_airplane_j",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "large_elephant",
+          "darlie_box",
+          "dabao_facewash",
+          "head_shoulders_supreme"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0010": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0010",
+        "object_ids": [
+          7,
+          17,
+          18,
+          26,
+          30,
+          37,
+          38,
+          51,
+          58,
+          61,
+          63
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "plum",
+          "knife",
+          "toy_airplane_d",
+          "toy_airplane_j",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "large_elephant",
+          "darlie_box",
+          "dabao_facewash",
+          "head_shoulders_supreme"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0011": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0011",
+        "object_ids": [
+          7,
+          17,
+          18,
+          26,
+          30,
+          37,
+          38,
+          51,
+          58,
+          61,
+          63
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "plum",
+          "knife",
+          "toy_airplane_d",
+          "toy_airplane_j",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "large_elephant",
+          "darlie_box",
+          "dabao_facewash",
+          "head_shoulders_supreme"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0012": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0012",
+        "object_ids": [
+          0,
+          9,
+          51,
+          58,
+          61,
+          69,
+          70,
+          17
+        ],
+        "object_count": 8,
+        "object_names": [
+          "cracker_box",
+          "scissors",
+          "large_elephant",
+          "darlie_box",
+          "dabao_facewash",
+          "hippo",
+          "tape",
+          "plum"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0013": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0013",
+        "object_ids": [
+          0,
+          58,
+          51,
+          9,
+          70,
+          17,
+          69,
+          61
+        ],
+        "object_count": 8,
+        "object_names": [
+          "cracker_box",
+          "darlie_box",
+          "large_elephant",
+          "scissors",
+          "tape",
+          "plum",
+          "hippo",
+          "dabao_facewash"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0014": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0014",
+        "object_ids": [
+          0,
+          9,
+          51,
+          58,
+          61,
+          69,
+          70,
+          17
+        ],
+        "object_count": 8,
+        "object_names": [
+          "cracker_box",
+          "scissors",
+          "large_elephant",
+          "darlie_box",
+          "dabao_facewash",
+          "hippo",
+          "tape",
+          "plum"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0015": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0015",
+        "object_ids": [
+          7,
+          8,
+          14,
+          15,
+          18,
+          22,
+          52,
+          63,
+          40,
+          29,
+          30
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "power_drill",
+          "peach",
+          "pear",
+          "knife",
+          "extra_large_clamp",
+          "shampoo",
+          "head_shoulders_supreme",
+          "kispa_cleanser",
+          "toy_airplane_i",
+          "toy_airplane_j"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0016": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0016",
+        "object_ids": [
+          7,
+          8,
+          14,
+          15,
+          18,
+          22,
+          52,
+          63,
+          40,
+          29,
+          30
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "power_drill",
+          "peach",
+          "pear",
+          "knife",
+          "extra_large_clamp",
+          "shampoo",
+          "head_shoulders_supreme",
+          "kispa_cleanser",
+          "toy_airplane_i",
+          "toy_airplane_j"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0017": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0017",
+        "object_ids": [
+          7,
+          8,
+          14,
+          15,
+          18,
+          22,
+          52,
+          63,
+          40,
+          29,
+          30
+        ],
+        "object_count": 11,
+        "object_names": [
+          "mug",
+          "power_drill",
+          "peach",
+          "pear",
+          "knife",
+          "extra_large_clamp",
+          "shampoo",
+          "head_shoulders_supreme",
+          "kispa_cleanser",
+          "toy_airplane_i",
+          "toy_airplane_j"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0018": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0018",
+        "object_ids": [
+          5,
+          20,
+          27,
+          34,
+          36,
+          37,
+          38,
+          57,
+          2
+        ],
+        "object_count": 9,
+        "object_names": [
+          "banana",
+          "flat_screwdriver",
+          "toy_airplane_f",
+          "sum37_secret_repair",
+          "dabao_wash_soup",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "weiquan",
+          "sugar_box"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0019": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0019",
+        "object_ids": [
+          5,
+          20,
+          36,
+          37,
+          38,
+          57,
+          27,
+          34,
+          2
+        ],
+        "object_count": 9,
+        "object_names": [
+          "banana",
+          "flat_screwdriver",
+          "dabao_wash_soup",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "weiquan",
+          "toy_airplane_f",
+          "sum37_secret_repair",
+          "sugar_box"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0020": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0020",
+        "object_ids": [
+          5,
+          20,
+          36,
+          37,
+          38,
+          57,
+          27,
+          34,
+          2
+        ],
+        "object_count": 9,
+        "object_names": [
+          "banana",
+          "flat_screwdriver",
+          "dabao_wash_soup",
+          "nzskincare_mouth_rinse",
+          "dabao_sod",
+          "weiquan",
+          "toy_airplane_f",
+          "sum37_secret_repair",
+          "sugar_box"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0021": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0021",
+        "object_ids": [
+          11,
+          26,
+          44,
+          46,
+          48,
+          66,
+          21,
+          43,
+          60,
+          62
+        ],
+        "object_count": 10,
+        "object_names": [
+          "strawberry",
+          "toy_airplane_d",
+          "stapler",
+          "dish",
+          "camel",
+          "head_shoulders_care",
+          "large_clamp",
+          "mario",
+          "glue",
+          "thread"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0022": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0022",
+        "object_ids": [
+          11,
+          26,
+          44,
+          46,
+          48,
+          66,
+          21,
+          43,
+          60,
+          62
+        ],
+        "object_count": 10,
+        "object_names": [
+          "strawberry",
+          "toy_airplane_d",
+          "stapler",
+          "dish",
+          "camel",
+          "head_shoulders_care",
+          "large_clamp",
+          "mario",
+          "glue",
+          "thread"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0023": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0023",
+        "object_ids": [
+          11,
+          26,
+          44,
+          46,
+          48,
+          66,
+          21,
+          43,
+          60,
+          62
+        ],
+        "object_count": 10,
+        "object_names": [
+          "strawberry",
+          "toy_airplane_d",
+          "stapler",
+          "dish",
+          "camel",
+          "head_shoulders_care",
+          "large_clamp",
+          "mario",
+          "glue",
+          "thread"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0024": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0024",
+        "object_ids": [
+          14,
+          15,
+          20,
+          36,
+          41,
+          46,
+          56,
+          30,
+          7,
+          27
+        ],
+        "object_count": 10,
+        "object_names": [
+          "peach",
+          "pear",
+          "flat_screwdriver",
+          "dabao_wash_soup",
+          "hanoi_tower",
+          "dish",
+          "gorilla",
+          "toy_airplane_j",
+          "mug",
+          "toy_airplane_f"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0025": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0025",
+        "object_ids": [
+          14,
+          15,
+          20,
+          36,
+          41,
+          46,
+          56,
+          30,
+          7,
+          27
+        ],
+        "object_count": 10,
+        "object_names": [
+          "peach",
+          "pear",
+          "flat_screwdriver",
+          "dabao_wash_soup",
+          "hanoi_tower",
+          "dish",
+          "gorilla",
+          "toy_airplane_j",
+          "mug",
+          "toy_airplane_f"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0026": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0026",
+        "object_ids": [
+          7,
+          14,
+          15,
+          20,
+          27,
+          30,
+          36,
+          41,
+          46,
+          56
+        ],
+        "object_count": 10,
+        "object_names": [
+          "mug",
+          "peach",
+          "pear",
+          "flat_screwdriver",
+          "toy_airplane_f",
+          "toy_airplane_j",
+          "dabao_wash_soup",
+          "hanoi_tower",
+          "dish",
+          "gorilla"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0027": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0027",
+        "object_ids": [
+          11,
+          17,
+          18,
+          29,
+          37,
+          43,
+          51,
+          57,
+          63,
+          66
+        ],
+        "object_count": 10,
+        "object_names": [
+          "strawberry",
+          "plum",
+          "knife",
+          "toy_airplane_i",
+          "nzskincare_mouth_rinse",
+          "mario",
+          "large_elephant",
+          "weiquan",
+          "head_shoulders_supreme",
+          "head_shoulders_care"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0028": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0028",
+        "object_ids": [
+          11,
+          17,
+          18,
+          29,
+          37,
+          43,
+          51,
+          57,
+          63,
+          66
+        ],
+        "object_count": 10,
+        "object_names": [
+          "strawberry",
+          "plum",
+          "knife",
+          "toy_airplane_i",
+          "nzskincare_mouth_rinse",
+          "mario",
+          "large_elephant",
+          "weiquan",
+          "head_shoulders_supreme",
+          "head_shoulders_care"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      },
+      "scene_0029": {
+        "path": "/home/arc02/Grasp_intent/grasp_pipeline/data/train_1/scene_0029",
+        "object_ids": [
+          0,
+          8,
+          9,
+          52,
+          58,
+          62,
+          69,
+          70
+        ],
+        "object_count": 8,
+        "object_names": [
+          "cracker_box",
+          "power_drill",
+          "scissors",
+          "shampoo",
+          "darlie_box",
+          "thread",
+          "hippo",
+          "tape"
+        ],
+        "has_realsense": true,
+        "rgb_count": 256,
+        "depth_count": 256
+      }
+    }
+  },
+  "annotations": {
+    "total_views": 256,
+    "unique_objects": {
+      "head_shoulders_care": 256,
+      "banana": 256,
+      "pear": 256,
+      "flat_screwdriver": 256,
+      "tape": 256,
+      "dish": 256,
+      "cracker_box": 256,
+      "camel": 256,
+      "peach": 256
+    }
+  },
+  "recommended_scenes": [
+    {
+      "view_id": "0055",
+      "objects": [
+        "head_shoulders_care",
+        "banana",
+        "pear",
+        "flat_screwdriver",
+        "tape",
+        "dish",
+        "cracker_box",
+        "camel",
+        "peach"
+      ],
+      "depth_quality": 0.967
+    },
+    {
+      "view_id": "0035",
+      "objects": [
+        "head_shoulders_care",
+        "banana",
+        "pear",
+        "flat_screwdriver",
+        "tape",
+        "dish",
+        "cracker_box",
+        "camel",
+        "peach"
+      ],
+      "depth_quality": 0.964
+    },
+    {
+      "view_id": "0119",
+      "objects": [
+        "head_shoulders_care",
+        "banana",
+        "pear",
+        "flat_screwdriver",
+        "tape",
+        "dish",
+        "cracker_box",
+        "camel",
+        "peach"
+      ],
+      "depth_quality": 0.955
+    },
+    {
+      "view_id": "0240",
+      "objects": [
+        "head_shoulders_care",
+        "banana",
+        "pear",
+        "flat_screwdriver",
+        "tape",
+        "dish",
+        "cracker_box",
+        "camel",
+        "peach"
+      ],
+      "depth_quality": 0.954
+    },
+    {
+      "view_id": "0158",
+      "objects": [
+        "head_shoulders_care",
+        "banana",
+        "pear",
+        "flat_screwdriver",
+        "tape",
+        "dish",
+        "cracker_box",
+        "camel",
+        "peach"
+      ],
+      "depth_quality": 0.95
+    }
+  ],
+  "label_comparison": {
+    "scenes_analyzed": 40,
+    "avg_detection_recall": 0.21666666666666662,
+    "avg_grasp_accuracy": 0.19387896825396828,
+    "normalized_label_distribution": {
+      "tape": 1,
+      "cracker_box": 308,
+      "head_shoulders_care": 1,
+      "banana": 55,
+      "peach": 1,
+      "flat_screwdriver": 3,
+      "knife": 9,
+      "slime": 1,
+      "window": 1,
+      "pepper": 1,
+      "usb drive": 1
+    }
+  }
+}

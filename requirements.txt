@@ -1,0 +1,19 @@
+# Core
+numpy
+opencv-python
+Pillow
+torch
+torchvision
+
+# SAM - Segment Anything Model
+segment-anything
+
+# VLM - Vision Language Model (e.g., LLaVA / OpenAI)
+openai
+transformers
+accelerate
+
+# Utilities
+tqdm
+matplotlib
+pyyaml

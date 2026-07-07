@@ -1,0 +1,3138 @@
+{
+    "0000": [
+        {
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "duct tape",
+            "grasp": "Cylindrical grasp",
+            "depth_crop": "outputs/crops/depth/object_0.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "crackers",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_1.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "shampoo",
+            "grasp": "Cylindrical grasp",
+            "depth_crop": "outputs/crops/depth/object_2.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_3.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_4.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_5.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_6.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "peach",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/depth/object_7.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_8.png",
+            "scene": "0000"
+        },
+        {
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/depth/object_9.png",
+            "scene": "0000"
+        }
+    ],
+    "0001": [
+        {
+            "scene": "0001",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_0.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0001/depth/object_1.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0001/depth/object_2.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_3.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "pen",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_4.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_5.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0001/depth/object_6.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_7.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0001/depth/object_8.png"
+        },
+        {
+            "scene": "0001",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0001/depth/object_9.png"
+        }
+    ],
+    "0002": [
+        {
+            "scene": "0002",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_0.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0002/depth/object_1.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0002/depth/object_2.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_3.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_4.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_5.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0002/depth/object_6.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_7.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0002/depth/object_8.png"
+        },
+        {
+            "scene": "0002",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0002/depth/object_9.png"
+        }
+    ],
+    "0003": [
+        {
+            "scene": "0003",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_0.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0003/depth/object_1.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0003/depth/object_2.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0003/depth/object_3.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_4.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_5.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_6.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_7.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_8.png"
+        },
+        {
+            "scene": "0003",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0003/depth/object_9.png"
+        }
+    ],
+    "0004": [
+        {
+            "scene": "0004",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_0.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0004/depth/object_1.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_2.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0004/depth/object_3.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_4.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_5.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_6.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_7.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_8.png"
+        },
+        {
+            "scene": "0004",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0004/depth/object_9.png"
+        }
+    ],
+    "0005": [
+        {
+            "scene": "0005",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_0.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_1.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_2.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_3.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_4.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_5.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_6.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_7.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_8.png"
+        },
+        {
+            "scene": "0005",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0005/depth/object_9.png"
+        }
+    ],
+    "0006": [
+        {
+            "scene": "0006",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_0.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_1.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_2.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0006/depth/object_3.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_4.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_5.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0006/depth/object_6.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_7.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_8.png"
+        },
+        {
+            "scene": "0006",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0006/depth/object_9.png"
+        }
+    ],
+    "0007": [
+        {
+            "scene": "0007",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_0.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_1.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_2.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_3.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_4.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0007/depth/object_5.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_6.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0007/depth/object_7.png"
+        },
+        {
+            "scene": "0007",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0007/depth/object_8.png"
+        }
+    ],
+    "0008": [
+        {
+            "scene": "0008",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_0.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_1.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0008/depth/object_2.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_3.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_4.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_5.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_6.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0008/depth/object_7.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_8.png"
+        },
+        {
+            "scene": "0008",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0008/depth/object_9.png"
+        }
+    ],
+    "0009": [
+        {
+            "scene": "0009",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0009/depth/object_0.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_1.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_2.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_3.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_4.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_5.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0009/depth/object_6.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0009/depth/object_7.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0009/depth/object_8.png"
+        },
+        {
+            "scene": "0009",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0009/depth/object_9.png"
+        }
+    ],
+    "0010": [
+        {
+            "scene": "0010",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0010/depth/object_0.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_1.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0010/depth/object_2.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "slime",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_3.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0010/depth/object_4.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0010/depth/object_5.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_6.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_7.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_8.png"
+        },
+        {
+            "scene": "0010",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0010/depth/object_9.png"
+        }
+    ],
+    "0011": [
+        {
+            "scene": "0011",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0011/depth/object_0.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0011/depth/object_1.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0011/depth/object_2.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0011/depth/object_3.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0011/depth/object_4.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0011/depth/object_5.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0011/depth/object_6.png"
+        },
+        {
+            "scene": "0011",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0011/depth/object_7.png"
+        }
+    ],
+    "0012": [
+        {
+            "scene": "0012",
+            "crop": "object_0.png",
+            "object_count": "4",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_0.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Cylindrical grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_1.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0012/depth/object_2.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0012/depth/object_3.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_4.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_5.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_6.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_7.png"
+        },
+        {
+            "scene": "0012",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0012/depth/object_8.png"
+        }
+    ],
+    "0013": [
+        {
+            "scene": "0013",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_0.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_1.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0013/depth/object_2.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_3.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_4.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Button-press grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_5.png"
+        },
+        {
+            "scene": "0013",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0013/depth/object_6.png"
+        }
+    ],
+    "0014": [
+        {
+            "scene": "0014",
+            "crop": "object_0.png",
+            "object_count": "4",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_0.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_1.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_2.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0014/depth/object_3.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_4.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_5.png"
+        },
+        {
+            "scene": "0014",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0014/depth/object_6.png"
+        }
+    ],
+    "0015": [
+        {
+            "scene": "0015",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_0.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_1.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0015/depth/object_2.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_3.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_4.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_5.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_6.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_7.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_8.png"
+        },
+        {
+            "scene": "0015",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0015/depth/object_9.png"
+        }
+    ],
+    "0016": [
+        {
+            "scene": "0016",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_0.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_1.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_2.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_3.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_4.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_5.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_6.png"
+        },
+        {
+            "scene": "0016",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0016/depth/object_7.png"
+        }
+    ],
+    "0017": [
+        {
+            "scene": "0017",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_0.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_1.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_2.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_3.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_4.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_5.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_6.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_7.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_8.png"
+        },
+        {
+            "scene": "0017",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0017/depth/object_9.png"
+        }
+    ],
+    "0018": [
+        {
+            "scene": "0018",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_0.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0018/depth/object_1.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0018/depth/object_2.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_3.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0018/depth/object_4.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_5.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_6.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_7.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_8.png"
+        },
+        {
+            "scene": "0018",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0018/depth/object_9.png"
+        }
+    ],
+    "0019": [
+        {
+            "scene": "0019",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_0.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_1.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_2.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_3.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_4.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "pen",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_5.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_6.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_7.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_8.png"
+        },
+        {
+            "scene": "0019",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0019/depth/object_9.png"
+        }
+    ],
+    "0020": [
+        {
+            "scene": "0020",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_0.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_1.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_2.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_3.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_4.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_5.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_6.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_7.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_8.png"
+        },
+        {
+            "scene": "0020",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0020/depth/object_9.png"
+        }
+    ],
+    "0021": [
+        {
+            "scene": "0021",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_0.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "window",
+            "grasp": "Cylindrical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_1.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_2.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_3.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_4.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "pen",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_5.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_6.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_7.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_8.png"
+        },
+        {
+            "scene": "0021",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0021/depth/object_9.png"
+        }
+    ],
+    "0022": [
+        {
+            "scene": "0022",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0022/depth/object_0.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_1.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0022/depth/object_2.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_3.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_4.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0022/depth/object_5.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0022/depth/object_6.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_7.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_8.png"
+        },
+        {
+            "scene": "0022",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0022/depth/object_9.png"
+        }
+    ],
+    "0023": [
+        {
+            "scene": "0023",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_0.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_1.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_2.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_3.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_4.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_5.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_6.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_7.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0023/depth/object_8.png"
+        },
+        {
+            "scene": "0023",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it box",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0023/depth/object_9.png"
+        }
+    ],
+    "0024": [
+        {
+            "scene": "0024",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0024/depth/object_0.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0024/depth/object_1.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0024/depth/object_2.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_3.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_4.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0024/depth/object_5.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_6.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_7.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_8.png"
+        },
+        {
+            "scene": "0024",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0024/depth/object_9.png"
+        }
+    ],
+    "0025": [
+        {
+            "scene": "0025",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0025/depth/object_0.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_1.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_2.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_3.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_4.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_5.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_6.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_7.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_8.png"
+        },
+        {
+            "scene": "0025",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0025/depth/object_9.png"
+        }
+    ],
+    "0026": [
+        {
+            "scene": "0026",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_0.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_1.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_2.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_3.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_4.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_5.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_6.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_7.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_8.png"
+        },
+        {
+            "scene": "0026",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0026/depth/object_9.png"
+        }
+    ],
+    "0027": [
+        {
+            "scene": "0027",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_0.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_1.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_2.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_3.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_4.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_5.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_6.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_7.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_8.png"
+        },
+        {
+            "scene": "0027",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0027/depth/object_9.png"
+        }
+    ],
+    "0028": [
+        {
+            "scene": "0028",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_0.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_1.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0028/depth/object_2.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0028/depth/object_3.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_4.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_5.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_6.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_7.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_8.png"
+        },
+        {
+            "scene": "0028",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0028/depth/object_9.png"
+        }
+    ],
+    "0029": [
+        {
+            "scene": "0029",
+            "crop": "object_0.png",
+            "object_count": "3",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_0.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_1.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheezit",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0029/depth/object_2.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_3.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_4.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_5.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheezit",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_6.png"
+        },
+        {
+            "scene": "0029",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0029/depth/object_7.png"
+        }
+    ],
+    "0030": [
+        {
+            "scene": "0030",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_0.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_1.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0030/depth/object_2.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_3.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_4.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_5.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_6.png"
+        },
+        {
+            "scene": "0030",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0030/depth/object_7.png"
+        }
+    ],
+    "0031": [
+        {
+            "scene": "0031",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_0.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_1.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_2.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_3.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_4.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_5.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_6.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_6.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_7.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_8.png"
+        },
+        {
+            "scene": "0031",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0031/depth/object_9.png"
+        }
+    ],
+    "0032": [
+        {
+            "scene": "0032",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_0.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_1.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_2.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_3.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_4.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_5.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_5.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_6.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_7.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_8.png"
+        },
+        {
+            "scene": "0032",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0032/depth/object_9.png"
+        }
+    ],
+    "0033": [
+        {
+            "scene": "0033",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_0.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_1.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_2.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_3.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_4.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_5.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_6.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_7.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_8.png"
+        },
+        {
+            "scene": "0033",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0033/depth/object_9.png"
+        }
+    ],
+    "0034": [
+        {
+            "scene": "0034",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_0.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_1.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_2.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "knife",
+            "grasp": "Pen-holding grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_3.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_4.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_5.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_6.png"
+        },
+        {
+            "scene": "0034",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0034/depth/object_7.png"
+        }
+    ],
+    "0035": [
+        {
+            "scene": "0035",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_0.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0035/depth/object_1.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0035/depth/object_2.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_3.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_3.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_4.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_5.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_6.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_7.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0035/depth/object_8.png"
+        },
+        {
+            "scene": "0035",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0035/depth/object_9.png"
+        }
+    ],
+    "0036": [
+        {
+            "scene": "0036",
+            "crop": "object_0.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0036/depth/object_0.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_1.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_2.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Lateral pinch",
+            "depth_crop": "outputs/crops/0036/depth/object_3.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_4.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_5.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_6.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_7.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_8.png"
+        },
+        {
+            "scene": "0036",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0036/depth/object_9.png"
+        }
+    ],
+    "0037": [
+        {
+            "scene": "0037",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_0.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_1.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_2.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_2.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_3.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_4.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_5.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_6.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_7.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_8.png",
+            "object_count": "1",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_8.png"
+        },
+        {
+            "scene": "0037",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0037/depth/object_9.png"
+        }
+    ],
+    "0038": [
+        {
+            "scene": "0038",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_0.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_1.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_1.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_2.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_3.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_4.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_4.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_5.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_6.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_7.png",
+            "object_count": "1",
+            "object": "cheetos",
+            "grasp": "Button-press grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_7.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_8.png"
+        },
+        {
+            "scene": "0038",
+            "crop": "object_9.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0038/depth/object_9.png"
+        }
+    ],
+    "0039": [
+        {
+            "scene": "0039",
+            "crop": "object_0.png",
+            "object_count": "2",
+            "object": "cheez-it",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_0.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_1.png",
+            "object_count": "1",
+            "object": "cheese",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_1.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_2.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_2.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_3.png",
+            "object_count": "1",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_3.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_4.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_4.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_5.png",
+            "object_count": "1",
+            "object": "pepper",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_5.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_6.png",
+            "object_count": "1",
+            "object": "USB drive",
+            "grasp": "Cylindrical grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_6.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_7.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_7.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_8.png",
+            "object_count": "2",
+            "object": "cheese crackers",
+            "grasp": "Pinch grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_8.png"
+        },
+        {
+            "scene": "0039",
+            "crop": "object_9.png",
+            "object_count": "2",
+            "object": "banana",
+            "grasp": "Spherical grasp",
+            "depth_crop": "outputs/crops/0039/depth/object_9.png"
+        }
+    ]
+}

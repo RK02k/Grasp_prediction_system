@@ -1,0 +1,376 @@
+================================================================
+TRAIN-1 PIPELINE — DETAILED ANALYSIS REPORT
+Date: 17 June 2026
+================================================================
+
+----------------------------------------------------------------
+RAW RESULTS SUMMARY
+----------------------------------------------------------------
+  Scenes processed   : 30
+  Total VLM objects  : 146
+  Avg recall         : 13.4%
+  Avg grasp exact    : 27.7%
+  Avg grasp semantic : 28.5%
+
+  Scene             GT  Det  Recall  ExactAcc  SemAcc
+  --------------- ---- ---- ------- --------- -------
+  scene_0000         9    2     22%       14%     14%
+  scene_0001         9    2     22%        0%      0%
+  scene_0002         9    2     22%       29%     29%
+  scene_0003         9    0      0%       17%     17%
+  scene_0004         9    0      0%        0%      0%
+  scene_0005         9    0      0%        0%      0%
+  scene_0006        10    1     10%      100%    100%
+  scene_0007        10    1     10%       57%     57%
+  scene_0008        10    3     30%       25%     50%
+  scene_0009        11    1      9%        0%      0%
+  scene_0010        11    1      9%       50%     50%
+  scene_0011        11    1      9%       25%     25%
+  scene_0012         8    3     38%       60%     60%
+  scene_0013         8    0      0%        0%      0%
+  scene_0014         8    2     25%       50%     50%
+  scene_0015        11    2     18%       44%     44%
+  scene_0016        11    2     18%       43%     43%
+  scene_0017        11    0      0%       14%     14%
+  scene_0018         9    1     11%       89%     89%
+  scene_0019         9    1     11%       60%     60%
+  scene_0020         9    2     22%       25%     25%
+  scene_0021        10    0      0%        0%      0%
+  scene_0022        10    1     10%       25%     25%
+  scene_0023        10    1     10%        0%      0%
+  scene_0024        10    1     10%        0%      0%
+  scene_0025        10    1     10%       12%     12%
+  scene_0026        10    1     10%       25%     25%
+  scene_0027        10    2     20%       40%     40%
+  scene_0028        10    2     20%        0%      0%
+  scene_0029         8    2     25%       25%     25%
+
+
+================================================================
+1. TOP-LEVEL NUMBERS
+================================================================
+
+  Metric                          Value       Interpretation
+  ------------------------------ ----------- ----------------------------------------
+  Scenes                          30          Full dataset run
+  GT objects                      289         Ground-truth labels
+  VLM detections                  146         Objects that passed all pipeline stages
+  GT matched by name              38 / 289    13.2% object-level recall
+  Hallucinated detections         83 / 146    56.8% of all VLM outputs are wrong objects
+  Avg grasp exact                 27.7%       Of the 146 detections, correct grasp
+  Avg grasp semantic              28.5%       Almost identical to exact — see Section 5
+
+The pipeline produces 146 detections but more than half name the wrong object.
+The grasp accuracy numbers (27.7%) are computed over those 146 mixed detections,
+so the *real* grasp accuracy on correctly identified objects is much higher —
+but that pool is tiny.
+
+
+================================================================
+2. THE THREE-STAGE FAILURE CHAIN
+================================================================
+
+  SAM masks  -->  SM1/SM2/SM3 filter  -->  VLM grasp
+  ~320 masks        ~146 survive             27.7% correct
+
+
+STAGE 1 — SAM to VLM funnel (avg ~47% of masks reach VLM)
+----------------------------------------------------------
+  Scene           GT   Masks   VLM det   Utilisation
+  scene_0013       8       8         0          0%   <-- total loss
+  scene_0006      10      10         1         10%
+  scene_0021      10      13         2         15%
+  scene_0018       9       9         9        100%   <-- best
+  scene_0025      10      10         8         80%
+
+SAM finds ~9–14 masks per scene (broadly matching GT object count of 8–11),
+but the SM1–SM3 filter is highly inconsistent — discards between 0% and 90%
+of masks depending on scene. scene_0013 lost all 8 masks and produced zero
+detections.
+
+Full SAM masks vs VLM detections table:
+  Scene           GT  Masks  VLM  Mask->VLM%
+  scene_0000       9     13    7        54%
+  scene_0001       9     11    4        36%
+  scene_0002       9     10    7        70%
+  scene_0003       9     10    6        60%
+  scene_0004       9     10    3        30%
+  scene_0005       9      9    5        56%
+  scene_0006      10     10    1        10%
+  scene_0007      10     14    7        50%
+  scene_0008      10     12    4        33%
+  scene_0009      11     11    3        27%
+  scene_0010      11     13    6        46%
+  scene_0011      11     10    4        40%
+  scene_0012       8     14    5        36%
+  scene_0013       8      8    0         0%
+  scene_0014       8      7    4        57%
+  scene_0015      11     11    9        82%
+  scene_0016      11      9    7        78%
+  scene_0017      11     11    7        64%
+  scene_0018       9      9    9       100%
+  scene_0019       9     11    5        45%
+  scene_0020       9      9    4        44%
+  scene_0021      10     13    2        15%
+  scene_0022      10     12    4        33%
+  scene_0023      10     12    5        42%
+  scene_0024      10     11    2        18%
+  scene_0025      10     10    8        80%
+  scene_0026      10      8    4        50%
+  scene_0027      10      9    5        56%
+  scene_0028      10     10    5        50%
+  scene_0029       8     10    4        40%
+
+
+STAGE 2 — Object identification (naming accuracy = 26%)
+-------------------------------------------------------
+38 of 146 VLM names match a GT label. The other 108 are either hallucinated
+(wrong object, e.g. "duck" instead of cracker_box) or duplicated (banana
+identified 4x when there is 1). This is the PRIMARY BOTTLENECK.
+
+STAGE 3 — Grasp accuracy (27.7% over all, ~82% conditional on Lateral pinch)
+-----------------------------------------------------------------------------
+Lateral pinch when the model predicts it, is right 82% of the time. The
+problem is the distribution of what the model predicts (see Section 3).
+
+
+================================================================
+3. GRASP TYPE PREDICTION DISTRIBUTION — CRITICAL FINDING
+================================================================
+
+  Grasp type              Predicted   Correct   Accuracy
+  ---------------------- ----------- --------- ----------
+  Pinch grasp                 43           1        2%   <-- catastrophic
+  Cylindrical grasp           42          18       43%
+  Lateral pinch               28          23       82%   <-- most reliable
+  Spherical grasp             13           2       15%
+  Button-press grasp          12           0        0%   <-- never correct
+  Pen-holding grasp            6           1       17%
+  Hook grasp                   2           0        0%
+
+Key observations:
+
+1. PINCH GRASP IS CATASTROPHICALLY MISCALIBRATED — predicted 43 times
+   (most frequent), correct only once (2%). The model defaults to "pinch"
+   as a generic fallback for any small or ambiguous object.
+
+2. BUTTON-PRESS GRASP IS NEVER CORRECT (0/12). The model applies it to
+   objects that don't warrant it.
+
+3. CYLINDRICAL GRASP IS MOST RELIABLE IN VOLUME — 43% accuracy across 42
+   predictions. Likely because cylindrical objects (bottles, mugs) are
+   visually unambiguous.
+
+4. LATERAL PINCH IS MOST RELIABLE BY RATE — 82% accuracy. When the model
+   commits to it, it is usually right.
+
+Per-scene grasp types predicted:
+  scene_0000  det=7  exact=14%  types: Pinch grasp, Spherical grasp, Lateral pinch
+  scene_0001  det=4  exact= 0%  types: Pinch grasp, Spherical grasp
+  scene_0002  det=7  exact=29%  types: Pinch grasp, Hook grasp, Lateral pinch
+  scene_0003  det=6  exact=17%  types: Lateral pinch, Pinch grasp, Spherical grasp, Cylindrical grasp
+  scene_0004  det=3  exact= 0%  types: Lateral pinch, Cylindrical grasp
+  scene_0005  det=5  exact= 0%  types: Pen-holding grasp, Cylindrical grasp, Spherical grasp, Lateral pinch
+  scene_0006  det=1  exact=100% types: Cylindrical grasp
+  scene_0007  det=7  exact=57%  types: Cylindrical grasp, Pinch grasp, Lateral pinch
+  scene_0008  det=4  exact=25%  types: Pinch grasp, Cylindrical grasp
+  scene_0009  det=3  exact= 0%  types: Pinch grasp, Cylindrical grasp
+  scene_0010  det=6  exact=50%  types: Pinch grasp, Button-press grasp, Cylindrical grasp
+  scene_0011  det=4  exact=25%  types: Pinch grasp, Cylindrical grasp
+  scene_0012  det=5  exact=60%  types: Cylindrical grasp, Pinch grasp, Spherical grasp, Lateral pinch
+  scene_0014  det=4  exact=50%  types: Pinch grasp, Lateral pinch
+  scene_0015  det=9  exact=44%  types: Pinch grasp, Button-press grasp, Spherical grasp, Cylindrical grasp
+  scene_0016  det=7  exact=43%  types: Button-press grasp, Pinch grasp, Cylindrical grasp, Pen-holding grasp, Spherical grasp
+  scene_0017  det=7  exact=14%  types: Pinch grasp, Button-press grasp, Hook grasp, Cylindrical grasp
+  scene_0018  det=9  exact=89%  types: Cylindrical grasp, Lateral pinch
+  scene_0019  det=5  exact=60%  types: Cylindrical grasp, Pinch grasp, Lateral pinch
+  scene_0020  det=4  exact=25%  types: Cylindrical grasp, Lateral pinch
+  scene_0021  det=2  exact= 0%  types: Pen-holding grasp, Pinch grasp
+  scene_0022  det=4  exact=25%  types: Pen-holding grasp, Spherical grasp, Cylindrical grasp
+  scene_0023  det=5  exact= 0%  types: Pen-holding grasp, Pinch grasp, Button-press grasp
+  scene_0024  det=2  exact= 0%  types: Pinch grasp, Cylindrical grasp
+  scene_0025  det=8  exact=12%  types: Cylindrical grasp, Button-press grasp, Spherical grasp, Lateral pinch
+  scene_0026  det=4  exact=25%  types: Spherical grasp, Cylindrical grasp
+  scene_0027  det=5  exact=40%  types: Pinch grasp, Spherical grasp, Cylindrical grasp
+  scene_0028  det=5  exact= 0%  types: Pinch grasp, Button-press grasp, Cylindrical grasp
+  scene_0029  det=4  exact=25%  types: Pinch grasp, Cylindrical grasp
+
+
+================================================================
+4. OBJECT RECOGNITION FAILURES
+================================================================
+
+CONSISTENTLY MATCHED (VLM recognises reliably):
+  Object                  Matched   Notes
+  ---------------------- --------- -----------------------------------
+  banana                      6    Visually iconic, common in training
+  scissors                    5    Distinctive shape
+  cracker_box                 4    YCB-like standard object
+  power_drill                 4    Distinctive tool
+  knife                       4    Common household object
+  head_shoulders_care         4    Recognisable shampoo bottle
+  mug                         3    Common cylindrical object
+  dish                        2
+  flat_screwdriver            2
+  strawberry                  1
+  tape                        1
+  peach                       1
+  plum                        1
+
+CONSISTENTLY MISSED (VLM never or rarely recognises):
+  Object                     Missed   Root cause
+  -------------------------- -------- ----------------------------------------
+  pear                            9   Small fruit, confused with similar items
+  dabao_wash_soup                 9   Chinese brand product, low in training data
+  toy_airplane_j                  9   Specific toy variant, OOD for 3B model
+  peach                           8   Confused with orange/similar fruit
+  mario                           8   Branded character (Nintendo)
+  toy_airplane_i                  8   Specific toy variant, OOD for 3B model
+  weiquan                         8   Chinese brand-specific packaging
+  nzskincare_mouth_rinse          8   Brand-specific packaging
+  large_elephant                  8   Toy, confused with generic "animal"
+  head_shoulders_supreme          8   Variant not distinguished from head_shoulders_care
+  flat_screwdriver                7   Thin flat object, frequently misidentified
+  dish                            7   Often identified as "plate" (synonym issue)
+  shampoo                         7   Generic vs brand confusion
+  thread                          7   Visually ambiguous crop
+  strawberry                      7   Small fruit, inconsistent recognition
+
+TOP HALLUCINATED OBJECT NAMES (VLM output not in GT):
+  object                          count= 6   (unnamed/generic)
+  toothpaste                      count= 6
+  blue bowl                       count= 4
+  scissors                        count= 3
+  blue cup                        count= 2
+  computer mouse                  count= 2
+  eraser                          count= 2
+  red marker                      count= 2
+  orange container                count= 2
+  head & shoulders Supreme        count= 2
+  black+decker                    count= 2
+  orange                          count= 2
+  soap                            count= 2
+  pen                             count= 2
+  egg                             count= 2
+
+CORE PATTERN: The 3B Qwen model reliably recognises YCB-style Western
+household objects. It struggles with:
+  - Chinese branded products (dabao, weiquan, nzskincare)
+  - Small produce that looks similar (pear, peach, plum)
+  - Thin/flat tools (flat_screwdriver, thread)
+  - Branded toys/characters (mario, toy_airplane variants)
+
+
+================================================================
+5. EXACT ACCURACY = SEMANTIC ACCURACY (BROKEN SEMANTIC FALLBACK)
+================================================================
+
+Across all 30 scenes, exact and semantic accuracy are identical or differ
+by only ±1%. The semantic similarity layer is adding zero value.
+
+The model's grasp prediction is either exactly right or in a completely
+different semantic cluster. There is no "close but not exact" case being
+rescued.
+
+Possible causes:
+  (a) The semantic taxonomy groups are too coarse — most wrong predictions
+      fall outside all nearby groups.
+  (b) The semantic scoring is matching against the wrong GT entry because
+      the object was misidentified in Stage 2 (most likely).
+  (c) The semantic mapping is not implemented with a sufficiently loose
+      threshold.
+
+
+================================================================
+6. ZERO-PERFORMANCE SCENES
+================================================================
+
+6 scenes with 0% recall (VLM matched no GT object by name):
+  scene_0003, scene_0004, scene_0005, scene_0013, scene_0017, scene_0021
+
+These scenes likely contain a higher proportion of Chinese branded products
+and toys (consistent with what is consistently missed in Section 4).
+
+8 scenes with detections but 0% grasp accuracy:
+  scene_0001, scene_0004, scene_0005, scene_0009, scene_0021,
+  scene_0023, scene_0024, scene_0028
+
+In these, the VLM made detections but every single grasp label was wrong —
+predominantly because "Pinch grasp" was assigned to everything.
+
+
+================================================================
+7. BEST AND WORST PERFORMERS
+================================================================
+
+BEST:
+  Scene       Recall   Grasp Exact   Notes
+  ---------- -------- ------------- -----------------------------------
+  scene_0006    10%       100%       Single object, unambiguous
+  scene_0018    11%        89%       9/9 masks used, cylindrical objects
+  scene_0012    38%        60%       Highest recall in dataset
+  scene_0019    11%        60%       Common cylindrical+knife objects
+  scene_0007    10%        57%       Power drill, scissors
+
+WORST:
+  Scene       Recall   Grasp Exact   Notes
+  ---------- -------- ------------- -----------------------------------
+  scene_0013     0%         0%       All 8 masks dropped by SM1 filter
+  scene_0004     0%         0%       Only Chinese branded products
+  scene_0005     0%         0%       SM1-3 filter discarded valid objects
+  scene_0001    22%         0%       4 detections, all pinch grasp, all wrong
+  scene_0028    20%         0%       Mixed objects + pinch/button-press bias
+
+
+================================================================
+8. ROOT CAUSES — PRIORITY ORDER
+================================================================
+
+  Priority   Issue                                   Impact
+  -------- ---------------------------------------- ---------------------------
+  1        Object misidentification (56.8% halluc.)  Kills recall and grasp matching
+  2        Pinch grasp over-prediction              Destroys grasp accuracy (2% acc)
+  3        SM1-SM3 filter inconsistency             Drops valid masks, zero-recall scenes
+  4        OOD objects (Chinese brands, toys)       Model has no prior knowledge
+  5        Button-press grasp never correct         Systematic misassignment (0/12)
+  6        Semantic fallback non-functional         Exact == Semantic everywhere
+
+
+================================================================
+9. RECOMMENDED NEXT STEPS
+================================================================
+
+1. FIX SM3 OBJECT MATCHING
+   Add fuzzy/synonym normalisation so "plate" -> "dish",
+   "head & shoulders Supreme" -> "head_shoulders_supreme", etc.
+   This alone would recover many missed GT matches and improve recall
+   significantly.
+
+2. SUPPRESS PINCH GRASP BIAS
+   Either add a prompt constraint listing valid grasp types per object
+   shape, or add a post-hoc re-scoring step penalising over-use of
+   "Pinch grasp". Target: reduce from 43 predictions to <15.
+
+3. DEBUG SM1 ON ZERO-RECALL SCENES
+   scene_0013 lost all 8 masks before VLM. Investigate whether the
+   SM1 object/background classifier threshold is too aggressive. Consider
+   logging the SM1 confidence scores per mask.
+
+4. RE-IMPLEMENT SEMANTIC GRASP SIMILARITY
+   The exact=semantic parity indicates it is not functioning. Implement
+   proper grouping (e.g., power grasp family: cylindrical + spherical;
+   precision family: pinch + lateral pinch) with explicit fallback logic.
+
+5. IMPROVE OOD OBJECT RECOGNITION
+   Options:
+     (a) Add few-shot examples in the SM3 prompt for known OOD objects
+     (b) Replace 3B model with Qwen2.5-VL-7B for SM3 only
+     (c) Add a post-processing synonym map for known dataset objects
+
+6. ADDRESS DUPLICATE DETECTIONS
+   Banana was identified 4x in scene_0000 (only 1 exists). Add NMS
+   (non-maximum suppression) on object names per scene after SM3.
+
+================================================================
+END OF REPORT
+================================================================

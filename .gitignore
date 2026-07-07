@@ -1,0 +1,43 @@
+# Dataset (too large to push)
+data/
+
+# segment-anything cloned repo (installable via pip, see requirements.txt)
+segment-anything/
+
+# Virtual environment
+grasp_env/
+
+# Model weights (large files)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Generated output images/crops (large)
+outputs/crops/
+outputs/scene_overlays/
+outputs/train1/crops/
+outputs/train1/scene_overlays/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Large image outputs
+output_masks.png
+.png
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
