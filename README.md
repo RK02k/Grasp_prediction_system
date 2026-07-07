@@ -223,14 +223,6 @@ Key parameters in `generate_labels.py` and `run_train1_pipeline.py`:
 
 ---
 
-## Hardware Requirements
-
-- **GPU**: NVIDIA GPU with ≥8 GB VRAM (for SAM + Qwen2.5-VL-3B)
-- **RAM**: ≥16 GB
-- **Storage**: ~1.2 GB for SAM checkpoint + dataset
-
----
-
 ## References
 
 - [Segment Anything (SAM)](https://github.com/facebookresearch/segment-anything)
